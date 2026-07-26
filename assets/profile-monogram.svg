@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Prince Saini monogram</title>
+  <desc id="desc">Cyber-styled PS monogram placeholder. Replace with a professional headshot.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#12372e"/>
+      <stop offset="0.6" stop-color="#06110e"/>
+      <stop offset="1" stop-color="#020504"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00ff9d"/>
+      <stop offset="1" stop-color="#00b8ff"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M35 0H0V35" fill="none" stroke="#00ff9d" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <rect width="600" height="600" fill="url(#grid)"/>
+  <circle cx="300" cy="300" r="224" fill="none" stroke="#00ff9d" stroke-opacity=".24" stroke-width="2"/>
+  <circle cx="300" cy="300" r="190" fill="#06110e" stroke="url(#line)" stroke-width="4" filter="url(#glow)"/>
+  <path d="M300 71V24M300 576v-47M71 300H24M576 300h-47" stroke="#00ff9d" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <text x="300" y="352" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="172" font-weight="800" letter-spacing="-12" fill="url(#line)" filter="url(#glow)">PS</text>
+  <text x="300" y="424" text-anchor="middle" font-family="monospace" font-size="20" letter-spacing="7" fill="#a7b8b1">AI RESEARCH</text>
+  <g fill="#00ff9d">
+    <circle cx="152" cy="148" r="5"/><circle cx="452" cy="173" r="4"/><circle cx="127" cy="421" r="4"/><circle cx="470" cy="439" r="5"/>
+  </g>
+</svg>
